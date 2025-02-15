@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTB ❤️</title>
+    <style>
+        :root {
+            --primary-color: #ff4b8a8f;
+            --secondary-color: #FF85A1;
+            --accent-color: #FFB6C1;
+            --background-color: #FFF0F3;
+            --text-color: #2C3E50;
+            --card-background: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 2rem 1rem;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .card {
+            background: var(--card-background);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem auto;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .message {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-color);
+            white-space: pre-line;
+        }
+
+        .date {
+            color: var(--primary-color);
+            font-style: italic;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+
+        .signature {
+            text-align: right;
+            margin-top: 2rem;
+            color: var(--primary-color);
+            font-style: italic;
+        }
+
+        .floating-button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            border-radius: 28px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .floating-button:hover {
+            background: var(--secondary-color);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .floating-button:active {
+            transform: translateY(0);
+        }
+
+        .heart-icon {
+            display: inline-block;
+            color: white;
+            animation: pulse 1.5s ease infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .fade-transition {
+            transition: opacity 0.3s ease;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .card {
+                padding: 1.5rem;
+                margin: 1rem auto;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .floating-button {
+                bottom: 1rem;
+                right: 1rem;
+                padding: 0.8rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Feliz San Valentín</h1>
+        <div class="subtitle">NFTB ❤️</div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <div class="date">14 de febrero, 2025</div>
+            <div class="message fade-transition" id="mainMessage">
+Mi viya,
+
+Hoy me hiciste recapacitar, de que ya no tenia detalles asi contigo. Creo que en parte fue de que ultimamente estabamos enfocados en muchas cosas menos en detalles. Lo ire retomando poco a poco. No quiero que sean solo palabras de un día especial, es lo que siento cada vez que pienso en ti, en nosotros, en nuestro camino juntos.
+
+Admiro profundamente tu fortaleza, esa capacidad tuya de enfrentar cualquier desafío con determinación y valentía. Me asombra ver cómo, sin importar las circunstancias, siempre encuentras la manera de seguir adelante, de mantener esa sonrisa, y aunque a veces no la tengas, y quieras solo llorar mientras te acuestas, al final siempre sales de todo.
+
+Gracias por enseñarme a conectar más conmigo, por ayudarme a descubrir una parte de mí que no conocía. Contigo he aprendido a expresarme, a ser más sensible, a entender que la verdadera fortaleza está en ser vulnerable y auténtico. Me has enseñado a cuidar, a amar de una manera más profunda.
+
+Me ilusiona enormemente pensar en todo lo que nos espera: nuestra casita nueva, ese nuevo hogar que construiremos juntos, y la hermosa aventura de ser padres algún día. Cada vez que imagino nuestro futuro, mi corazón se llena de alegría porque sé que cada paso lo daremos juntos, apoyándonos mutuamente, creciendo en amor.
+
+No solo has sido mi compañera de vida, has sido mi maestra en tantos aspectos. Me has ayudado a crecer como persona, a ser más empático, más comprensivo, más presente. Contigo he aprendido que el amor verdadero no solo se trata de los momentos felices, sino de estar ahí incondicionalmente, de crecer juntos, de construir un futuro.
+
+Te amo por quien eres, por cómo me has ayudado a ser quien soy hoy. Te amo y contigo todo es mas sencillo, mas bonito. Feliz dia mi viya</div>
+            
+            <div class="signature">Te amo siempre..<br></div>
+        </div>
+    </div>
+
+    <button onclick="changeMessage()" class="floating-button">
+        <span class="heart-icon">❤️</span>
+        Siguiente mensaje
+    </button>
+
+    <script>
+         const messages = [
+            `No hay necesidad de ver con una lupa para ver mis defectos...`,
+            
+            `Que comparado con lo que siento por ti, son una cosa diminuta.`,
+            
+            `Toda la casa se llenó de grietas, es demasiado el amor y ya está que se revienta.`,
+            
+            `Dime, ¿qué estamos esperando? 
+Que ya se asoma el futuro, 
+Lo vi en la esquina doblando...`,
+            
+            `Vayámonos de acá, please
+A nuestro lugar feliz
+Al lado del mar
+Y dejemos todo atrás...`,
+            
+            `Contigo, no me falta, no me falta na
+Contigo, no me falta, no me falta na...`,
+            
+            `¿Qué me va a faltar?
+No me falta na (un masajito)
+y unas trencitas en la playita, mi amor`,
+            
+            `tengamos diez muchachitos y que tengan tus ojitos...`
+        ];
+
+        let currentMessageIndex = -1;
+
+        function changeMessage() {
+    const messageElement = document.getElementById("mainMessage");
+    currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+    
+    messageElement.style.opacity = 0;
+    setTimeout(() => {
+        messageElement.innerText = messages[currentMessageIndex];
+        messageElement.style.opacity = 1;
+    }, 300);
+}
+    </script>
+</body>
+</html>
